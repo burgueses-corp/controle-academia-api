@@ -1,6 +1,6 @@
 class Gym:
 
-    def __init__(self,nome,cnpj,email,telefone):
+    def __init__(self,nome=None,cnpj=None,email=None,telefone=None):
         self.nome=nome
         self.cnpj=cnpj
         self.email=email
